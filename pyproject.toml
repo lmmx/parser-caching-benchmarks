@@ -1,0 +1,17 @@
+[project]
+name = "parser_caching_benchmarks"
+version = "0.1.0"
+description = "Experiments to see if parser latency can be minimised by serialising the parser config"
+readme = "README.md"
+authors = [
+    { name = "Louis Maddox", email = "louismmx@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+parser = "parser_caching_benchmarks:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
